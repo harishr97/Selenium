@@ -21,7 +21,7 @@ public class StringLength {
         int result = lengthOfLastWord(s);
         System.out.println("Length of last word: " + result);
 
-        String s1 = "fly me   to   the moon";
+        String s1 = "   fly me   to   the moon  ";
         int result1 = lengthOfLastWord(s1);
         System.out.println("Length of last word: " + result1);
 
